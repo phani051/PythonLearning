@@ -1,0 +1,6 @@
+Welcome user
+pick randome number and make it global variable
+choose the difficulty: easy and hard
+easy have 5 attempts
+hard have 10 attempts
+

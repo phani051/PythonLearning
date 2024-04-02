@@ -1,0 +1,6 @@
+report
+Check resources sufficient
+Process coins
+Check transaction successful?
+Make the coffee and deduct the resources.
+
