@@ -18,11 +18,17 @@ class Snack:
     def create_snake(self):
 
         for position in STARTING_POSITION:
-            t = Turtle("square")
-            t.penup()
-            t.color("white")
-            t.goto(position)
-            self.segments.append(t)
+            self.add_segment(position)
+
+    def add_segment(self, position):
+        t = Turtle("square")
+        t.penup()
+        t.color("white")
+        t.goto(position)
+        self.segments.append(t)
+
+    def extend(self):
+        self.add_segment(self.segments[-1].position())
 
     def move(self):
 
