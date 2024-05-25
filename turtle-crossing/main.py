@@ -31,6 +31,7 @@ while game_is_on:
 
     for i in car.all_cars:
         if i.distance(player) < 25:
+            scoreboard.game_over()
             game_is_on = False
 
 screen.exitonclick()
